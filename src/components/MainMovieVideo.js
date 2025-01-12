@@ -10,7 +10,7 @@ const MainMovieVideo = ({ movieId }) => {
   return (
     <div className="w-screen h-auto aspect-video">
       <iframe
-      className="w-full h-full mt-[-140px]"
+      className="w-screen h-full mt-[-140px]"
         width="560"
         height="315"
         src={"https://www.youtube.com/embed/"+movieTrailer?.key+"?autoplay=1&mute=1"}
