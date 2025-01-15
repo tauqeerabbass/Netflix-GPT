@@ -23,5 +23,3 @@ export const LANGUAGE_OPTIONS = [
   { id: "urdu", name: "Urdu" },
   { id: "turkish", name: "Turkish" },
 ];
-
-export const OPENAI_API_KEY="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";
