@@ -15,10 +15,9 @@
 // main();
 
 import OpenAI from 'openai';
-import { OPENAI_API_KEY } from './constans';
 
 const openai = new OpenAI({
-  apiKey: OPENAI_API_KEY, // Access the API key securely
+  apiKey: process.env.APP_OPENAI_API_KEY, // Access the API key securely
   dangerouslyAllowBrowser: true,
 });
 
