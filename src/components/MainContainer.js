@@ -4,10 +4,9 @@ import MainMovieTitle from './MainMovieTitle';
 import { useSelector } from 'react-redux';
 
 const MainContainer = () => {
-    const moviesNowPlaying = useSelector((store) => store.movie?.nowPlayingmoviesNowPlaying);
+    const moviesNowPlaying = useSelector((store) => store.movie?.nowPlayingMovies);
     if (!moviesNowPlaying) return;
     const mainMovie = moviesNowPlaying[0];
-    // console.log(mainMovie);
 
     const {original_title, overview, id} = mainMovie;
 
